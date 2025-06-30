@@ -1,3 +1,5 @@
+#!/home/minhtrinh/my_project/venv/project3D/bin/python
+
 # This code is implemented by ChatGPT. Please check again the algorithm ----------
 
 import pyvista as pv
@@ -5,7 +7,7 @@ import numpy as np
 from sklearn.neighbors import NearestNeighbors
 
 # === Load mesh ===
-mesh = pv.read("D:/Learn_and_Study/USTH/Bachelor/3D_Project/CG_dataset/brick_part01.obj")
+mesh = pv.read("../CG_dataset/brick_part01.obj")
 points = mesh.points
 n_points = len(points)
 
